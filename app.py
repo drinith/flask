@@ -16,6 +16,5 @@ def index():
         )
     html.append('</ul>')
     return '\n'.join(html)
-
     
 app.run()
