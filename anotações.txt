@@ -1,0 +1,14 @@
+=======================
+criar venv
+=======================
+python3 venv venv
+
+=======================
+Criar o requirements.txt do freeze
+=======================
+pip freeze > requirements.txt
+
+=======================
+Como instalar o requiments.txt
+=======================
+pip install -r requirements.txt
